@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace WindowsApplication1
+﻿Namespace WindowsApplication1
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -54,7 +52,8 @@ Namespace WindowsApplication1
 			Me.chartControl1.SeriesTemplate.SummaryFunction = "SUM([UnitsInStock])"
 			Me.chartControl1.Size = New System.Drawing.Size(592, 432)
 			Me.chartControl1.TabIndex = 0
-'			Me.chartControl1.BoundDataChanged += New DevExpress.XtraCharts.BoundDataChangedEventHandler(Me.chartControl1_BoundDataChanged);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.chartControl1.BoundDataChanged += new DevExpress.XtraCharts.BoundDataChangedEventHandler(this.chartControl1_BoundDataChanged);
 			' 
 			' nwindDataSet
 			' 
@@ -78,7 +77,8 @@ Namespace WindowsApplication1
 			Me.Controls.Add(Me.chartControl1)
 			Me.Name = "Form1"
 			Me.Text = "Form1"
-'			Me.Load += New System.EventHandler(Me.Form1_Load);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.Load += new System.EventHandler(this.Form1_Load);
 			CType(xyDiagram1, System.ComponentModel.ISupportInitialize).EndInit()
 			CType(Me.chartControl1, System.ComponentModel.ISupportInitialize).EndInit()
 			CType(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).EndInit()
