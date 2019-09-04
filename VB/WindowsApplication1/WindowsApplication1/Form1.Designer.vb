@@ -40,9 +40,7 @@
 			Me.chartControl1.DataAdapter = Me.productsTableAdapter
 			Me.chartControl1.DataSource = Me.productsBindingSource
 			xyDiagram1.AxisX.VisibleInPanesSerializable = "-1"
-			xyDiagram1.AxisX.Range.SideMarginsEnabled = True
 			xyDiagram1.AxisY.VisibleInPanesSerializable = "-1"
-			xyDiagram1.AxisY.Range.SideMarginsEnabled = True
 			Me.chartControl1.Diagram = xyDiagram1
 			Me.chartControl1.Location = New System.Drawing.Point(24, 16)
 			Me.chartControl1.Name = "chartControl1"
