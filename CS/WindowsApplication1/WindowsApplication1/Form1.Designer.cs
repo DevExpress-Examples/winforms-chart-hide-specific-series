@@ -52,7 +52,7 @@ namespace WindowsApplication1
             this.chartControl1.SeriesDataMember = "SupplierID";
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[0];
             this.chartControl1.SeriesTemplate.ArgumentDataMember = "CategoryID";
-            this.chartControl1.SeriesTemplate.NumericSummaryOptions.SummaryFunction = "SUM([UnitsInStock])";
+            this.chartControl1.SeriesTemplate.SummaryFunction = "SUM([UnitsInStock])";
             this.chartControl1.Size = new System.Drawing.Size(592, 432);
             this.chartControl1.TabIndex = 0;
             this.chartControl1.BoundDataChanged += new DevExpress.XtraCharts.BoundDataChangedEventHandler(this.chartControl1_BoundDataChanged);
