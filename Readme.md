@@ -6,7 +6,7 @@
 
 This example demonstrates how to handle the [ChartControl.BoundDataChanged](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.BoundDataChanged) event to conditionally hide automatically created series. The Chart hides all series whose number is less than 5: 
 
-[Chart](./images/Chart.png)
+![Chart](./images/Chart.png)
 
 ## Files to Review
 
